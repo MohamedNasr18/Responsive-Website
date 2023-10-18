@@ -1,4 +1,3 @@
-# Responsive-Website
 # Responsive Website Built with Bootstrap
 
 ## Overview
