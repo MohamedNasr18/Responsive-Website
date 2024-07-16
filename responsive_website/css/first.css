@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+background-color: #ffffff;
+min-height: 5000px;
+line-height: 1.5;
+font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --yellow: #f7b900
+  --red: #ff2300;
+  --darker-red:#CC0000;
+  --footer-color:darkslategrey;
+  --snowflake:rgb(189, 209, 6);
+}
+
+.navy{
+  background-color: #444444;
+}
+.logo{
+  color: #f0f0f0;
+}
+.navbar .navbar-nav .nav-link{
+color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+color: #009688;
+}
+.search{
+  color: #009688;
+  cursor: pointer;
+  border-left: 1px solid #009688;
+}
+.navbar .navbar-toggler{
+  color: white;
+  border-color: white; 
+}
+.landing{
+  background-color:#0C1932;
+min-height: calc(100vh - 72px);
+background-image: url("E:/my_projects/responsive_website/imagess/pexels-photo-234527.webp");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: calc(100vh - 72px);
+}
+body .btn{
+  color: var(--yellow);
+  background-color: var(--red);
+  border-color: var(--red);
+}
+body .btn:hover{
+  background-color: var(--darker-red) ;
+  border-color: var(--red);
+  transition: all 0.2s ease;
+}
+body .btn:focus{
+  box-shadow: none;
+  outline: none;
+}
+.fa-snowflake{
+  color: rgb(189, 209, 6);
+}
+.content .icon-holder{
+  height: 200px;
+}
+.into-content::after{
+content: '';
+width: 120px;
+height: 2px;
+background-color: rgb(21, 155, 179);
+position: absolute;
+bottom: -20px;
+transform: translateX(-50%);
+}
+.feat .icon-holder svg{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.feat .icon-holder .number{
+  font-size: 12rem;
+  position: absolute;
+  color:#eee0e0 ;
+}
+.feat .icon-holder .pencil{
+  bottom: 7px;
+  color: #0d8add;
+}
+.feat h4{
+  color: var(--yellow);
+}
+.content ul{
+  display: inline-flex;
+}
+.content ul .active{
+  background-color: #CC0000;
+  color: var(--yellow);
+}
+.content ul li{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+.content ul li:not(.active):hover{
+  color: #CC0000;
+}
+.making{
+  background-color: aliceblue;
+}
+.images .box{
+  overflow: hidden;
+  position: relative;
+}
+.images .box img{
+  padding: 3px;
+  width: 277px;
+    height: 185px
+}
+.second{
+  background-color: aliceblue;
+}
+.stuff-p{
+  max-width: 400px;
+}
+.text{
+  max-width: 380px; 
+  text-align: left; 
+  padding: 20px;
+}
+.lap{
+  width: 450px;
+  height: 360px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+.team{
+  background-color: rgb(231, 229, 229);
+}
+.team h2{
+  color: rgb(228, 166, 10);
+}
+.team h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: rgb(12, 134, 150);
+}
+.hover-zoom {
+  transition: transform 0.5s; 
+}
+.hover-zoom:hover {
+  transform: scale(1.1); 
+}
+.project{
+  background-color: #052346;
+}
+.card-body{
+  text-align: left;
+}
+.row .card{
+border: none;
+}
+.subscribe {
+  background-color: var(--yellow);
+  margin-bottom: -48px;
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  color: var(--yellow);
+  background-color: #052346;
+  border: none;
+}
+.footer {
+  background-color:#052346;
+  position: relative;
+  top: 48px;
+}
+.footer .copyright > span {
+  color: var(--snowflake);
+}
+.footer .copyright div span {
+  color: var(--yellow);
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+.footer ul{
+  display: block;
+}
+.contact .btn{
+  color: var(--yellow);
+  background-color: var(--red);
+  border-color: var(--red);
+}
+.contact .btn:hover{
+  background-color: var(--darker-red) ;
+  border-color: var(--red);
+  transition: all 0.2s ease;
+  color: white;
+}
+ul.uly li:hover{
+color: rgb(214, 205, 205) !important; 
+transition: all 0.3s ease;
+}
